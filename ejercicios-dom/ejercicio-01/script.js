@@ -11,14 +11,14 @@ const allP = document.querySelectorAll("p");
 console.log(allP);
 
 //1.4
-const allPokemon =document.querySelectorAll(".pokemon");
+const allPokemon = document.querySelectorAll(".pokemon");
 console.log(allPokemon);
 
 //1.5
-const testMe = document.querySelectorAll("[data-function]");
+const testMe = document.querySelectorAll('[data-function="testMe"]');
 console.log(testMe);
 
 //1.6
-const thirdDataFunction = document.querySelectorAll("[data-function]");
+const thirdDataFunction = document.querySelectorAll('[data-function="testMe"]');
 
 console.log(thirdDataFunction[2]);
