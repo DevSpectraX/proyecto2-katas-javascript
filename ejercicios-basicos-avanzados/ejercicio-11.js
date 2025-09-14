@@ -20,7 +20,7 @@ function averageWord(list) {
             totalString += list[i].length;
         }
     }
-    return totalNumbers + totalString;
+    return (totalNumbers + totalString) / list.length;
 }
 
 console.log(averageWord(mixedElements));

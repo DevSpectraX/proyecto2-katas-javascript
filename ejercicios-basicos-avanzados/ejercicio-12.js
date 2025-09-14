@@ -15,8 +15,7 @@ const duplicates = [
 function removeDuplicates(list) {
   let newArray = [];
   for (let i = 0; i < list.length; i++) {
-    if (newArray.includes(list[i])) {
-    } else {
+    if (!newArray.includes(list[i])) {
       newArray = newArray.concat(list[i]);
     }
   }
