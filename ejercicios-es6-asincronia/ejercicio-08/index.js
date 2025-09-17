@@ -7,4 +7,5 @@ fetch("https://thronesapi.com/api/v2/Characters")
         console.log(nameList)
     })
 
-//const characterList = document.querySelector("#character-list")
+const characterList = document.querySelector("#character-list")
+const ul = document.createElement(ul)
